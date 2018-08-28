@@ -5,12 +5,16 @@
   .header {
     background-color:rgba(0,0,0,1);
     height: 80px;
-    padding: 25px;
+    display:flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
     color: white;
   }
   .title {
-    font-size: 30px;
-    text-align: start
+    font-size: 40px;
+    text-align: end;
   }
   @keyframes App-logo-spin {
     from { transform: rotate(0deg); }

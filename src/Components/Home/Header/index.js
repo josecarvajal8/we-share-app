@@ -1,12 +1,11 @@
 import React from 'react'
 import _ from '../../../Helpers/Utilities'
 import './style.css'
-export default () => {
-    const tittle = _.capitalize('we share')
+export default ({ title }) => {
     return (
         <div>
             <div className="header">
-                <h1 className="title">{tittle}</h1>
+                <h1 className="title">{_.capitalize(title)}</h1>
             </div>
         </div>
     )
