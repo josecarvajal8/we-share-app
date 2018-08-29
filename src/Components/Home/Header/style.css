@@ -8,14 +8,27 @@
     display:flex;
     padding-right: 20px;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-start;
     flex-direction: row;
     color: white;
+  }
+  .containerList {
+    flex-direction: row;
+    display:flex;
+    margin-left: 20px;
+  }
+  .btns {
+    padding-right: 20px;
   }
   .title {
     font-size: 40px;
     text-align: end;
+   position: absolute;
+   margin-left: 88%;
   }
+  .textBtns {
+    font-size: 20px;
+  } 
   @keyframes App-logo-spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
