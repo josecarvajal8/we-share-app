@@ -6,8 +6,10 @@ import './style.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header title={'we share'} />
+      <div className='App'>
+        <div className='containerHeader'>
+          <Header title={'we share'} />
+        </div>
         <Body >
           <p className="App-intro">
             we will start soon

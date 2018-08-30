@@ -1,4 +1,13 @@
 .App {
   text-align: center;
-  background-color:#757575;
+  background-color:rgba(35, 39, 65, 0.90);
+}
+.containerHeader {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 100%;
+}
+.head{
+  background-color: black
 }

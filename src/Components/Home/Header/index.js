@@ -2,7 +2,7 @@ import React from 'react'
 import _ from '../../../Helpers/Utilities'
 import './style.css'
 export default ({ title }) => {
-    const btns = ['Home', 'About', 'Devs']
+    const btns = ['Projects', 'About', 'Devs']
     const listBtns = (data) => data.map(el => <div className='btns'><p className='textBtns'>{el}</p></div>)
     return (
         <div className='header'>
