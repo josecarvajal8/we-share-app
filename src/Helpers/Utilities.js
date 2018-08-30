@@ -1,5 +1,5 @@
 import Sugar from 'sugar'
 export default {
-    capitalize: (value) => Sugar.String.capitalize(value, true, true),
+    capitalize: (value) => Sugar.String.capitalize(value),
     upper: (value) => value.toUpperCase
 }
