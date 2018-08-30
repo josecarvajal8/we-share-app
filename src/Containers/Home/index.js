@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header title={'we share'} />
         <Body >
           <p className="App-intro">
             we will start soon
@@ -18,5 +18,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
